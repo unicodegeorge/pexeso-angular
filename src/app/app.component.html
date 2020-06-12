@@ -1,0 +1,8 @@
+<div id="field">
+        <div
+        class="card"
+        (click)="addCard('card'+i,card.color)"
+        id="card{{i}}"
+        *ngFor="let card of this.cards; let i = index">
+        </div>
+</div>

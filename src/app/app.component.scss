@@ -1,0 +1,17 @@
+.card {
+  width: 200px;
+  height: 400px;
+ border: 1px solid black;
+  margin-bottom: 10px;
+  background: url("https://pbs.twimg.com/profile_images/1052681279412424704/yhthTEz6_400x400.jpg");
+  background-size: cover;
+  background-position-x: -150px;
+}
+
+#field {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 860px;
+  margin: 0 auto;
+}
